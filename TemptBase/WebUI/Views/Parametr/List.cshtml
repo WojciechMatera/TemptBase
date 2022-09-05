@@ -1,0 +1,13 @@
+﻿@using TemptBase.Domain.Entities
+@model IEnumerable<Parametr>
+@{
+    ViewBag.Title = "Parametry";
+}
+
+@foreach (var p in Model) { 
+    <div>
+        <h3>@p.Name</h3>
+        <h2>----------------------</h2>
+        <h4>@p.Value.ToString()</h4>
+    </div>
+}

@@ -1,0 +1,17 @@
+C:\projekty\3\TemptBase\Domain\bin\Debug\TemptBase.Domain.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\TemptBase.Domain.pdb
+C:\projekty\3\TemptBase\Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.Helpers.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.Mvc.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.Razor.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.WebPages.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.Helpers.xml
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.Mvc.xml
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.Razor.xml
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.WebPages.xml
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\projekty\3\TemptBase\Domain\obj\Debug\TemptBase.Domain.dll
+C:\projekty\3\TemptBase\Domain\obj\Debug\TemptBase.Domain.pdb

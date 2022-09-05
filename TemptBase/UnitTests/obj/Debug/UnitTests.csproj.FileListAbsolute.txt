@@ -1,0 +1,5 @@
+C:\projekty\3\TemptBase\UnitTests\bin\Debug\UnitTests.dll
+C:\projekty\3\TemptBase\UnitTests\bin\Debug\UnitTests.pdb
+C:\projekty\3\TemptBase\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\projekty\3\TemptBase\UnitTests\obj\Debug\UnitTests.dll
+C:\projekty\3\TemptBase\UnitTests\obj\Debug\UnitTests.pdb
