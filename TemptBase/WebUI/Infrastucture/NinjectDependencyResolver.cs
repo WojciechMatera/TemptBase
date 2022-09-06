@@ -6,6 +6,7 @@ using Ninject;
 using Moq;
 using System.Web.Mvc;
 using TemptBase.Domain.Abstract;
+using TemptBase.Domain.Concrete;
 using TemptBase.Domain.Entities;
 
 namespace TemptBase.WebUI.Infrastucture
@@ -32,15 +33,17 @@ namespace TemptBase.WebUI.Infrastucture
 
         private void AddBindings()
         {
-            Mock<IParametrRepository> mock = new Mock<IParametrRepository>();
-            mock.Setup(m => m.Parametry).Returns(new List<Parametr>
+         /*   Mock<IParametrRepository> mock = new Mock<IParametrRepository>();
+            mock.Setup(m => m.Parametrs).Returns(new List<Parametr>
             {
                 new Parametr { Name = "Cel" , Value = 1},
                 new Parametr { Name = "Cel", Value = 5},
                 new Parametr { Name = "Cel", Value = 15}
             });
 
-            kernel.Bind<IParametrRepository>().ToConstant(mock.Object);
+            kernel.Bind<IParametrRepository>().ToConstant(mock.Object);*/
+
+            kernel.Bind<IParametrRepository>().To<EFParametrRepository>();
         }
     }
 }

@@ -1,0 +1,14 @@
+﻿@model TemptBase.Domain.Entities.Parametr
+
+<div class="well">
+    <h4>
+        @if (Model.Name == "Cel")
+        {
+            Model.Name = "Celciusza";
+        }
+        <strong>@Model.Name</strong>
+        <span class="pull-right label label-primary">@Model.Value</span>
+    </h4>
+    <span class="lead"> --------------- </span>
+</div>
+

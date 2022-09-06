@@ -1,13 +1,13 @@
-﻿@using TemptBase.Domain.Entities
-@model IEnumerable<Parametr>
+﻿@model TemptBase.WebUI.Models.ParametrListViewModel
+
 @{
     ViewBag.Title = "Parametry";
 }
 
-@foreach (var p in Model) { 
-    <div>
-        <h3>@p.Name</h3>
-        <h2>----------------------</h2>
-        <h4>@p.Value.ToString()</h4>
-    </div>
+@foreach (var p in Model.Parametrs) {
+    @Html.Partial("ParametrSummary", p)
 }
+
+<div class="pager">
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+</div>

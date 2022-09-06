@@ -15,3 +15,9 @@ C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\projekty\3\TemptBase\Domain\bin\Debug\System.Web.WebPages.Razor.xml
 C:\projekty\3\TemptBase\Domain\obj\Debug\TemptBase.Domain.dll
 C:\projekty\3\TemptBase\Domain\obj\Debug\TemptBase.Domain.pdb
+C:\projekty\3\TemptBase\Domain\bin\Debug\TemptBase.Domain.dll.config
+C:\projekty\3\TemptBase\Domain\bin\Debug\EntityFramework.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\projekty\3\TemptBase\Domain\bin\Debug\EntityFramework.xml
+C:\projekty\3\TemptBase\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\projekty\3\TemptBase\Domain\obj\Debug\TemptBase.Domain.csprojResolveAssemblyReference.cache

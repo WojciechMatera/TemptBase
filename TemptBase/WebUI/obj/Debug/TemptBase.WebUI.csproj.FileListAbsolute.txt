@@ -30,3 +30,7 @@ C:\projekty\3\TemptBase\WebUI\obj\Debug\TemptBase.WebUI.csprojResolveAssemblyRef
 C:\projekty\3\TemptBase\WebUI\obj\Debug\TemptBase.WebUI.dll
 C:\projekty\3\TemptBase\WebUI\obj\Debug\TemptBase.WebUI.pdb
 C:\projekty\3\TemptBase\WebUI\bin\WebActivatorEx.dll
+C:\projekty\3\TemptBase\WebUI\bin\EntityFramework.dll
+C:\projekty\3\TemptBase\WebUI\bin\EntityFramework.SqlServer.dll
+C:\projekty\3\TemptBase\WebUI\bin\EntityFramework.xml
+C:\projekty\3\TemptBase\WebUI\bin\EntityFramework.SqlServer.xml

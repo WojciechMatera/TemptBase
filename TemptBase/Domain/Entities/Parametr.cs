@@ -8,7 +8,7 @@ namespace TemptBase.Domain.Entities
 {
     public class Parametr
     {
-        public int ProductID { get; set; }
+        public int ParametrID { get; set; }
         public string Name { get; set; }
      //   public string Description { get; set; }
         public decimal Value { get; set; }

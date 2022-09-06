@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using TemptBase.Domain.Entities;
 
 namespace TemptBase.Domain.Abstract
 {
     public interface IParametrRepository
     {
-        IEnumerable<Parametr> Parametry { get; }
+        IEnumerable<Parametr> Parametrs { get; }
     }
 }
