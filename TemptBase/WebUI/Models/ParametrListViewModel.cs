@@ -10,5 +10,7 @@ namespace TemptBase.WebUI.Models
     {
         public IEnumerable<Parametr> Parametrs { get; set; }
         public PagingInfo PagingInfo { get; set; }
+        public string CurrentCategory { get; set; }
+
     }
 }

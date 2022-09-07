@@ -18,11 +18,12 @@ namespace TemptBase.WebUI.Controllers
             this.repository = parametrRepository;
         }
         // GET: Parametr
-        public ViewResult List(int page = 1)
+        public ViewResult List(string category , int page = 1)
         {
-            ParametrListViewModel model = new ParametrListViewModel
+            ParametrListViewModel viewModel = new ParametrListViewModel
             {
                 Parametrs = repository.Parametrs
+                .Where(p => category == null || p.Category == category)
                 .OrderBy(p => p.ParametrID)
                 .Skip((page - 1) * PageSize)
                 .Take(PageSize),
@@ -32,10 +33,11 @@ namespace TemptBase.WebUI.Controllers
                     ItemsPerPage = PageSize,
                     TotalItems = repository.Parametrs.Count()
 
-                }
+                },
+                CurrentCategory = category
             };
 
-             return View(model);
+             return View(viewModel);
         }
     }
 }

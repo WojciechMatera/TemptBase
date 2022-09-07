@@ -10,5 +10,11 @@ namespace TemptBase.Domain.Abstract
     public interface IParametrRepository
     {
         IEnumerable<Parametr> Parametrs { get; }
+
+        void SaveParametr(Parametr parametr);
+
+        Parametr DeleteParametr(int parametrID);
     }
+
+    
 }

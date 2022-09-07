@@ -7,24 +7,44 @@ using System.Web.Routing;
 
 namespace TemptBase.WebUI
 {
+
     public class RouteConfig
     {
+
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-            routes.MapRoute(
-                name: null,
-                url: "Strona{page}",
-                defaults: new 
+
+            routes.MapRoute(null,
+                "",
+                new
                 {
-                    Controller = "Parametr",
-                    action = "List"
-                });
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Parametr", action = "List", id = UrlParameter.Optional }
+                    controller = "Parametr",
+                    action = "List",
+                    category = (string)null,
+                    page = 1
+                }
             );
+
+            routes.MapRoute(null,
+                "Page{page}",
+                new { controller = "Parametr", action = "List", category = (string)null },
+                new { page = @"\d+" }
+            );
+
+            routes.MapRoute(null,
+                "{category}",
+                new { controller = "Parametr", action = "List", page = 1 }
+            );
+
+            routes.MapRoute(null,
+                "{category}/Page{page}",
+                new { controller = "Parametr", action = "List" },
+                new { page = @"\d+" }
+            );
+
+            routes.MapRoute(null, "{controller}/{action}");
         }
     }
 }
+

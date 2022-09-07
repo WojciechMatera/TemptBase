@@ -20,4 +20,3 @@ C:\projekty\3\TemptBase\Domain\bin\Debug\EntityFramework.dll
 C:\projekty\3\TemptBase\Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\projekty\3\TemptBase\Domain\bin\Debug\EntityFramework.xml
 C:\projekty\3\TemptBase\Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\projekty\3\TemptBase\Domain\obj\Debug\TemptBase.Domain.csprojResolveAssemblyReference.cache

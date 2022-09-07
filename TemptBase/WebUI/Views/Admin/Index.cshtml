@@ -1,0 +1,44 @@
+﻿@model IEnumerable<TemptBase.Domain.Entities.Parametr>
+
+@{
+    ViewBag.Title = "Administracja: Wszystkie parametry";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="panel panel-default">
+
+    <div class="panel-heading">
+        <h3>Wszystkie parametry</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-right">ID</th>
+                <th>Nazwa</th>
+                <th class="text-right">Wartość</th>
+                <th class="text-center">Akcje</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-right">@item.ParametrID</td>
+                    <td>@Html.ActionLink(item.Name, "Edit", new { item.ParametrID })</td>
+                    <td class="text-right">@item.Value</td>
+                    <td class="text-center">
+                        @using (Html.BeginForm("Delete", "Admin"))
+                        {
+                            @Html.Hidden("ParametrID", item.ParametrID)
+                            <input type="submit"
+                                   class="btn btn-default btn-xs"
+                                   value="Usuń" />
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Dodaj nowy produkt", "Create", null,
+            new { @class = "btn btn-default" })
+    </div>
+</div>
